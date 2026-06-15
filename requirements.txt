@@ -3,12 +3,11 @@ pandas==2.0.3
 numpy==1.24.3
 pyarrow>=10.0.1,<10.1.0
 
-# Spark (optional - use local pandas if Spark not available)
+# Spark 
 pyspark==3.4.0
 
 # Database Connectors
 psycopg2-binary==2.9.7
-# LOOSENED SO AIRFLOW 2.7.3 AND SQLALCHEMY CAN AGREE ON PYTHON 3.11
 sqlalchemy>=1.4.28,<2.0
 
 # Kafka
